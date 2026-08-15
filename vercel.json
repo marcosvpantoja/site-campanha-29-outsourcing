@@ -1,0 +1,20 @@
+{
+  "redirects": [
+    { "source": "/", "has": [{ "type": "host", "value": "lpsoftware.vintenove.com" }], "destination": "/lp", "permanent": false },
+    { "source": "/empresa-de-desenvolvimento-de-software-(.*)", "destination": "/desenvolvimento-de-software-$1", "permanent": true },
+    { "source": "/desenvolvimento-de-aplicativo-(.*)", "destination": "/criar-aplicativo-$1", "permanent": true },
+    { "source": "/sistema-personalizado-(.*)", "destination": "/criar-sistema-$1", "permanent": true },
+    { "source": "/(.*)-sp", "destination": "/$1-sao-paulo", "permanent": true },
+    { "source": "/squad-dedicado-tremembe", "destination": "/squad-dedicado-sao-paulo", "permanent": true },
+    { "source": "/alocacao-de-desenvolvedores-paraibuna", "destination": "/alocacao-de-desenvolvedores-sao-paulo", "permanent": true },
+    { "source": "/category/(.*)", "destination": "/", "permanent": true },
+    { "source": "/tag/(.*)", "destination": "/", "permanent": true },
+    { "source": "/wp-content/(.*)", "destination": "/", "permanent": true },
+    { "source": "/wp-admin/(.*)", "destination": "/", "permanent": true },
+    { "source": "/feed", "destination": "/", "permanent": true },
+    { "source": "/author/(.*)", "destination": "/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "29Tech - Outsourcing de Desenvolvimento",
+  "short_name": "29Tech",
+  "description": "Especialistas validados pela 29Tech dentro do seu projeto em poucos dias — sem custo fixo, sem estrutura interna e sem contratos longos.",
+  "start_url": "https://www.vintenove.com/lp",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#ff6b35",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "technology"],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Terceirize seu Time",
+      "short_name": "Outsourcing",
+      "description": "Agende uma análise gratuita para terceirizar seu time de desenvolvimento",
+      "url": "/lp?utm_source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "/favicon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
